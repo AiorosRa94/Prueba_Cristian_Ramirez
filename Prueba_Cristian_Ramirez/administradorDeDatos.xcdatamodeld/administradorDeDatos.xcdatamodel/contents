@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="19C57" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Corporacion" representedClassName="Corporacion" syncable="YES" codeGenerationType="class">
+        <attribute name="coordenadas" optional="YES" attributeType="String"/>
+        <attribute name="descripcion" optional="YES" attributeType="String"/>
+        <attribute name="idCorp" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="logo" optional="YES" attributeType="String"/>
+        <attribute name="nombre" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Emergencia" representedClassName="Emergencia" syncable="YES" codeGenerationType="class">
+        <attribute name="descripcion" optional="YES" attributeType="String"/>
+        <attribute name="fecha" optional="YES" attributeType="String"/>
+        <attribute name="idCorp" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="lugar" optional="YES" attributeType="String"/>
+        <relationship name="relacion1NidCorp" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Corporacion"/>
+    </entity>
+    <elements>
+        <element name="Corporacion" positionX="-45" positionY="0" width="128" height="118"/>
+        <element name="Emergencia" positionX="-18" positionY="63" width="128" height="118"/>
+    </elements>
+</model>

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,9 +13,14 @@
 		3E3B0A7323E093E100A66283 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E3B0A7123E093E100A66283 /* Main.storyboard */; };
 		3E3B0A7523E093E400A66283 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E3B0A7423E093E400A66283 /* Assets.xcassets */; };
 		3E3B0A7823E093E400A66283 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E3B0A7623E093E400A66283 /* LaunchScreen.storyboard */; };
+		3E3B0A8123E0B2DC00A66283 /* administradorDeDatos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3E3B0A7F23E0B2DC00A66283 /* administradorDeDatos.xcdatamodeld */; };
+		3E3B0AB423E33EF000A66283 /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E3B0AB323E33EF000A66283 /* location.png */; };
+		3E3B0AB823E389EF00A66283 /* corporacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3B0AB723E389EF00A66283 /* corporacion.swift */; };
+		D1843241F1135613E10D8251 /* Pods_Prueba_Cristian_Ramirez.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F582E7EF26AD25B5EDD7501F /* Pods_Prueba_Cristian_Ramirez.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05F199E17000DEF401DD31D8 /* Pods-Prueba_Cristian_Ramirez.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Prueba_Cristian_Ramirez.release.xcconfig"; path = "Target Support Files/Pods-Prueba_Cristian_Ramirez/Pods-Prueba_Cristian_Ramirez.release.xcconfig"; sourceTree = "<group>"; };
 		3E3B0A6823E093E100A66283 /* Prueba_Cristian_Ramirez.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prueba_Cristian_Ramirez.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E3B0A6B23E093E100A66283 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3E3B0A6D23E093E100A66283 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,13 @@
 		3E3B0A7423E093E400A66283 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E3B0A7723E093E400A66283 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E3B0A7923E093E400A66283 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E3B0A8023E0B2DC00A66283 /* administradorDeDatos.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = administradorDeDatos.xcdatamodel; sourceTree = "<group>"; };
+		3E3B0AB323E33EF000A66283 /* location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location.png; sourceTree = "<group>"; };
+		3E3B0AB523E3581000A66283 /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/Main.strings"; sourceTree = "<group>"; };
+		3E3B0AB623E3581000A66283 /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		3E3B0AB723E389EF00A66283 /* corporacion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = corporacion.swift; sourceTree = "<group>"; };
+		6FEA570D5785F9019F5D3422 /* Pods-Prueba_Cristian_Ramirez.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Prueba_Cristian_Ramirez.debug.xcconfig"; path = "Target Support Files/Pods-Prueba_Cristian_Ramirez/Pods-Prueba_Cristian_Ramirez.debug.xcconfig"; sourceTree = "<group>"; };
+		F582E7EF26AD25B5EDD7501F /* Pods_Prueba_Cristian_Ramirez.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Prueba_Cristian_Ramirez.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1843241F1135613E10D8251 /* Pods_Prueba_Cristian_Ramirez.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,8 +53,12 @@
 		3E3B0A5F23E093E100A66283 = {
 			isa = PBXGroup;
 			children = (
+				3E3B0AB723E389EF00A66283 /* corporacion.swift */,
+				3E3B0AA523E1D80E00A66283 /* imagenes */,
 				3E3B0A6A23E093E100A66283 /* Prueba_Cristian_Ramirez */,
 				3E3B0A6923E093E100A66283 /* Products */,
+				79FBF0E313AA141AC4417A0E /* Pods */,
+				56B67B2193D6F4C235186623 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +76,38 @@
 				3E3B0A6B23E093E100A66283 /* AppDelegate.swift */,
 				3E3B0A6D23E093E100A66283 /* SceneDelegate.swift */,
 				3E3B0A6F23E093E100A66283 /* ViewController.swift */,
+				3E3B0A7F23E0B2DC00A66283 /* administradorDeDatos.xcdatamodeld */,
 				3E3B0A7123E093E100A66283 /* Main.storyboard */,
 				3E3B0A7423E093E400A66283 /* Assets.xcassets */,
 				3E3B0A7623E093E400A66283 /* LaunchScreen.storyboard */,
 				3E3B0A7923E093E400A66283 /* Info.plist */,
 			);
 			path = Prueba_Cristian_Ramirez;
+			sourceTree = "<group>";
+		};
+		3E3B0AA523E1D80E00A66283 /* imagenes */ = {
+			isa = PBXGroup;
+			children = (
+				3E3B0AB323E33EF000A66283 /* location.png */,
+			);
+			path = imagenes;
+			sourceTree = "<group>";
+		};
+		56B67B2193D6F4C235186623 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F582E7EF26AD25B5EDD7501F /* Pods_Prueba_Cristian_Ramirez.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79FBF0E313AA141AC4417A0E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6FEA570D5785F9019F5D3422 /* Pods-Prueba_Cristian_Ramirez.debug.xcconfig */,
+				05F199E17000DEF401DD31D8 /* Pods-Prueba_Cristian_Ramirez.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +117,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3E3B0A7C23E093E400A66283 /* Build configuration list for PBXNativeTarget "Prueba_Cristian_Ramirez" */;
 			buildPhases = (
+				A9D7D36DA8051F3D50662EE8 /* [CP] Check Pods Manifest.lock */,
 				3E3B0A6423E093E100A66283 /* Sources */,
 				3E3B0A6523E093E100A66283 /* Frameworks */,
 				3E3B0A6623E093E100A66283 /* Resources */,
+				9E0316A7C3570AC1086F3143 /* [CP] Embed Pods Frameworks */,
+				E937B6715F8FF160FFCE1B8B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -109,6 +155,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"es-419",
 			);
 			mainGroup = 3E3B0A5F23E093E100A66283;
 			productRefGroup = 3E3B0A6923E093E100A66283 /* Products */;
@@ -125,6 +172,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E3B0AB423E33EF000A66283 /* location.png in Resources */,
 				3E3B0A7823E093E400A66283 /* LaunchScreen.storyboard in Resources */,
 				3E3B0A7523E093E400A66283 /* Assets.xcassets in Resources */,
 				3E3B0A7323E093E100A66283 /* Main.storyboard in Resources */,
@@ -133,13 +181,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9E0316A7C3570AC1086F3143 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Prueba_Cristian_Ramirez/Pods-Prueba_Cristian_Ramirez-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Prueba_Cristian_Ramirez/Pods-Prueba_Cristian_Ramirez-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Prueba_Cristian_Ramirez/Pods-Prueba_Cristian_Ramirez-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9D7D36DA8051F3D50662EE8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Prueba_Cristian_Ramirez-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E937B6715F8FF160FFCE1B8B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Prueba_Cristian_Ramirez/Pods-Prueba_Cristian_Ramirez-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Prueba_Cristian_Ramirez/Pods-Prueba_Cristian_Ramirez-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Prueba_Cristian_Ramirez/Pods-Prueba_Cristian_Ramirez-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3E3B0A6423E093E100A66283 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E3B0AB823E389EF00A66283 /* corporacion.swift in Sources */,
 				3E3B0A7023E093E100A66283 /* ViewController.swift in Sources */,
 				3E3B0A6C23E093E100A66283 /* AppDelegate.swift in Sources */,
+				3E3B0A8123E0B2DC00A66283 /* administradorDeDatos.xcdatamodeld in Sources */,
 				3E3B0A6E23E093E100A66283 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,6 +260,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				3E3B0A7223E093E100A66283 /* Base */,
+				3E3B0AB523E3581000A66283 /* es-419 */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -159,6 +269,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				3E3B0A7723E093E400A66283 /* Base */,
+				3E3B0AB623E3581000A66283 /* es-419 */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -170,6 +281,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -230,6 +342,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -282,6 +395,7 @@
 		};
 		3E3B0A7D23E093E400A66283 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FEA570D5785F9019F5D3422 /* Pods-Prueba_Cristian_Ramirez.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +414,7 @@
 		};
 		3E3B0A7E23E093E400A66283 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05F199E17000DEF401DD31D8 /* Pods-Prueba_Cristian_Ramirez.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -338,6 +453,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3E3B0A7F23E0B2DC00A66283 /* administradorDeDatos.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3E3B0A8023E0B2DC00A66283 /* administradorDeDatos.xcdatamodel */,
+			);
+			currentVersion = 3E3B0A8023E0B2DC00A66283 /* administradorDeDatos.xcdatamodel */;
+			path = administradorDeDatos.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 3E3B0A6023E093E100A66283 /* Project object */;
 }
